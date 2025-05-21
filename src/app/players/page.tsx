@@ -270,17 +270,6 @@ const categories = [
   { name: 'Goalkeepers', value: 'goalkeeper' }
 ];
 
-function StatCard({ title, value, subtitle, icon }: { title: string; value: string | number; subtitle?: string; icon?: React.ReactNode }) {
-  return (
-    <div className="bg-gray-50 rounded-xl p-4">
-      {icon && <div className="text-primary mb-2">{icon}</div>}
-      <div className="text-2xl font-bold text-primary">{value}</div>
-      <div className="text-small text-gray-600">{title}</div>
-      {subtitle && <div className="text-xs text-gray-500 mt-1">{subtitle}</div>}
-    </div>
-  );
-}
-
 export default function PlayersPage() {
   return (
     <main className="bg-white pt-20">
