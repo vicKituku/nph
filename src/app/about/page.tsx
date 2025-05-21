@@ -39,13 +39,13 @@ export default function AboutPage() {
                 A Legacy of <span className="text-primary">Excellence</span>
               </h2>
               <p className="text-gray-600 leading-relaxed">
-                Founded in 2010, we've been at the forefront of football management, 
+                Founded in 2010, we&apos;ve been at the forefront of football management, 
                 transforming the careers of hundreds of athletes worldwide. Our journey 
                 began with a simple mission: to provide comprehensive support and 
                 opportunities for talented players to reach their full potential.
               </p>
               <p className="text-gray-600 leading-relaxed">
-                Over the years, we've built strong relationships with top clubs, 
+                Over the years, we&apos;ve built strong relationships with top clubs, 
                 developed innovative training programs, and created pathways for 
                 players to achieve their dreams of professional success.
               </p>

@@ -72,7 +72,7 @@ export default function Testimonials() {
                   <span key={i} className="text-yellow-400">★</span>
                 ))}
               </div>
-              <p className="text-body italic">"{testimonial.quote}"</p>
+              <p className="text-body italic">&quot;{testimonial.quote}&quot;</p>
             </motion.div>
           ))}
         </div>

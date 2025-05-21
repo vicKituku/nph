@@ -40,8 +40,8 @@ export default function ContactPage() {
             <h1 className="heading-1 mb-6">
               Get in <span className="text-primary">Touch</span>
             </h1>
-            <p className="text-xl text-gray-600">
-              Have questions about our services or want to join our team? We're here to help.
+            <p className="text-xl text-gray-600 leading-relaxed">
+              We&apos;re here to help you take the next step in your football career. Get in touch with our team.
             </p>
           </motion.div>
         </div>
@@ -141,6 +141,10 @@ export default function ContactPage() {
                   />
                 </div>
 
+                <p className="text-sm text-gray-500">
+                  By submitting this form, you&apos;re agreeing to our privacy policy and terms of service.
+                </p>
+
                 <button
                   type="submit"
                   className="btn-primary w-full"
@@ -160,7 +164,7 @@ export default function ContactPage() {
               <div>
                 <h2 className="heading-2 mb-6">Contact Information</h2>
                 <p className="text-gray-600 mb-8">
-                  Reach out to us through any of the following channels. We'll get back to you as soon as possible.
+                  Reach out to us through any of the following channels. We&apos;ll get back to you as soon as possible.
                 </p>
               </div>
 
